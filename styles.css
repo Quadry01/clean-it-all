@@ -1,0 +1,128 @@
+*{text-align: center;
+
+  }
+
+  .nav-link{
+    color: white !important;
+  }
+
+  #first-page{
+    background-image: url("bg.png");
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+  background-color: #125B50;
+  height: 700px;
+  padding: 100px 0px 100px;
+  margin: 0px 20px;
+}
+#what-we-do{
+  height: 600px;
+padding: 120px;
+margin-top: 200px;
+margin-bottom: 200px;
+
+}
+
+
+#testimonials{
+  background-color: #125B50;
+  height: 600px;
+  padding-top:100px;
+  margin-top: 100px;
+}
+
+
+
+#footer{
+  background-color: #E9EFC0;
+  height: 100px;
+  padding: 15px;
+}
+
+/* font-family: 'Lora', serif;
+font-family: 'Roboto Slab', serif; */
+/* first page */
+
+.intro{
+color: white;
+font-family: 'Roboto Slab', serif;
+text-align: left;
+font-size: 60px;
+margin-top: 60px;
+margin-left: 30px;
+line-height: 1;
+
+}
+
+.clean-img{
+transform: rotate(10deg);
+font-size: 40px;
+margin:  50px 10px 20px;
+
+}
+
+/* what we do */
+
+ul{
+  list-style: none;
+
+}
+.what-we-do-child{
+    background-color: #B4E197;
+    border: 5px solid;
+    font-family: 'Lora', serif;
+    font-size: 20px;
+    border-radius: 30px;
+    padding: 20px;
+    text-align: left;
+    margin-bottom: 100px;
+}
+
+h2{
+font-size: 70px;
+font-family: 'Roboto Slab', serif;
+margin-top:50px;
+margin-bottom: 10px;
+font-weight: 900;
+
+}
+
+/* Testimonials */
+
+.tests{
+font-size: 30px;
+color: white;
+font-family: 'Lora', serif;
+padding-left: 150px;
+padding-right: 150px;
+padding-bottom: 0;
+margin-bottom: 25px;
+}
+
+.test-image1{
+border-radius: 50px;
+height: 100px;
+margin-right: 10px;
+}
+
+.em{
+  color: white;
+}
+
+.footer-logo{
+font-size: 50px;
+margin-left: 5px;
+margin-right: 5px;
+margin-top: 10px;
+
+}
+
+@media (maxwidth:1283px) {
+  #what-we-do{
+margin: 0px;
+
+}
+@media (maxwidth:1285px) {
+  h2{
+margin-top: 50px;
+}
