@@ -1,0 +1,236 @@
+* {
+  text-align: center;
+}
+
+.nav-link {
+  color: white !important;
+}
+
+#first-page {
+  background-color: #125b50;
+  height: 700px;
+  padding: 100px 0px 100px;
+  margin: 0px 0px;
+}
+#what-we-do {
+  background-image: url("images/clean-home.jpg");
+  background-repeat: no-repeat, repeat;
+  background-size: cover;
+  padding-top: 40px;
+  padding-bottom: 60px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-top: 10px;
+  height: auto;
+}
+
+#testimonials {
+  background-color: #125b50;
+  height: 600px;
+  padding-top: 50px;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+#cta {
+  height: 600px;
+  padding: 20px;
+}
+
+#footer {
+  background-color: #125b50;
+  height: 100px;
+  padding: 10px;
+}
+
+/* font-family: 'Lora', serif;
+font-family: 'Roboto Slab', serif; */
+/* first page */
+
+.intro {
+  color: white;
+  font-family: "Roboto Slab", serif;
+  text-align: left;
+  font-size: 60px;
+  margin-top: 50px;
+  margin-left: 30px;
+  line-height: 1.5;
+}
+
+.first-page-img {
+  height: 600px;
+  padding-bottom: px;
+}
+
+/* what we do */
+
+ul {
+  list-style: none;
+}
+.what-we-do-child {
+  background-color: #125b50;
+  color: white;
+  border: 5px solid;
+  font-family: "Lora", serif;
+  font-size: 20px;
+  border-radius: 30px;
+  padding: 20px;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.what-we-do-header {
+  font-size: 70px;
+  font-family: "Roboto Slab", serif;
+  margin-top: 35px;
+  margin-bottom: 10px;
+  font-weight: 900;
+  color: white;
+}
+
+/* Testimonials */
+h2 {
+  font-size: 60px;
+  font-family: "Roboto Slab", serif;
+  font-weight: 900;
+  color: white;
+  margin-bottom: 25px;
+  padding: 0px 20px;
+}
+
+.tests {
+  font-size: 30px;
+  color: white;
+  font-family: "Lora", serif;
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-bottom: 0;
+  margin-bottom: 25px;
+}
+
+.test-image1 {
+  border-radius: 50px;
+  height: 100px;
+  margin-right: 10px;
+}
+
+.em {
+  color: white;
+}
+
+/* cta */
+
+.cta-text {
+  font-family: "Roboto Slab", serif;
+  font-size: 60px;
+  margin-top: 100px;
+  padding: 0px 20px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 20px;
+}
+
+.cta-link {
+  text-decoration: none;
+  color: white;
+}
+
+.footer-logo {
+  font-size: 30px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 10px;
+  color: white;
+}
+.footer-link {
+  text-decoration: none;
+}
+
+/* Mobile View */
+
+@media (max-width: 993.4px) {
+  .intro {
+    margin-top: 0px;
+  }
+}
+
+@media (max-width: 847px) {
+  .intro {
+    line-height: 1;
+    margin: 0px;
+    padding: 0px 20px;
+  }
+}
+
+@media (max-width: 656px) {
+  .intro {
+    font-size: 55px;
+  }
+}
+
+@media (max-width: 935px) {
+  #testimonials {
+    height: auto;
+    padding-bottom: 30px;
+  }
+}
+
+@media (max-width: 632px) {
+  #cta {
+    height: auto;
+  }
+}
+@media (max-width: 575px) {
+  #first-page {
+    height: auto;
+  }
+}
+
+@media (max-width: 575px) {
+  .first-page-img {
+    height: 450px;
+    margin-top: 50px;
+  }
+}
+@media (max-width: 575px) {
+  #first-page {
+    padding-bottom: 0px;
+  }
+}
+
+@media (max-width: 769px) {
+  .tests {
+    padding: 50px;
+  }
+}
+
+@media (max-width: 499px) {
+  .tests {
+    padding: 15px;
+  }
+}
+
+@media (max-width: 764px) {
+  .cta-text {
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 632px) {
+  .btn {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 523px) {
+  .first-page-img {
+    height: 300px;
+  }
+}
+
+@media (max-width: 468px) {
+  #what-we-do {
+    padding: 20px 25px;
+  }
+}
